@@ -82,6 +82,14 @@ body::-webkit-scrollbar-thumb
 {
   display: inline-block; padding: 10px 20px; color: #fff; background: black; border-radius: 10px
 }
+.bt:hover
+{
+  background-color: #000 !important;
+  color: #fd9207;
+  box-shadow: 1px 1px 10px black;
+  text-decoration: none;
+  text-shadow: 2px #fd9207;
+}
 .logo{
   background:url(../img/logopreto.jpeg);
   background-repeat: no-repeat;
@@ -101,6 +109,8 @@ body::-webkit-scrollbar-thumb
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 0;
+    box-shadow: 1px 1px 20px black;
+   filter:brightness(50%);
 
 }
 .conteudo
@@ -253,7 +263,7 @@ h2
 {
   
   float: right;
-  right: -200px;
+  
 
 }
 .social-link
